@@ -5,27 +5,27 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Rubbish Brothers",
-    link: "https://www.rubbishbrothers.com",
+    imageUrl: "/images/pr1.png",
+    title: "SEO Results",
+    link: "",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Atlas Massage",
-    link: "https://www.atlasmassage.ca",
+    imageUrl: "/images/pr2.png",
+    title: "Our Web-Development & Designing",
+    link: "https://beanbuzz.netlify.app/",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Canadian Security Solutions",
-    link: "https://www.canadiansecuritysolutions.com",
+    imageUrl: "/images/pr3.png",
+    title: "SMM Results",
+    link: "https://www.instagram.com/anuragxsinghhh/",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Flight 9",
-    link: "https://www.flight9.art",
+    imageUrl: "/images/pr4.png",
+    title: "Our Car Marketplace Modern Look & Design",
+    link: "https://carz-club.vercel.app/",
   },
 
 
