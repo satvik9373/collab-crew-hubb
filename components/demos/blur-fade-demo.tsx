@@ -13,7 +13,7 @@ const works = [
     background: "bg-gray-200",
     imageUrl: "/images/pr2.png",
     title: "Our Web-Development & Designing",
-    link: "https://beanbuzz.netlify.app/",
+    link: "https://coffeesass.netlify.app/",
   },
   {
     background: "bg-gray-200",
