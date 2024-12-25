@@ -410,7 +410,7 @@ export default function Home() {
               src={"/logo/logo.png"}
               width={10000}
               height={10000}
-              className="w-40"
+              className="w-28"
               alt="image"
             />{" "}
           </h1>
@@ -420,12 +420,12 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Collab Crew Hub. All Rights Reserved.
-          <Link href="/" className="text-blue-500">
-            Privacy Policy
-          </Link>
-        </div>
+        <div className="flex md:justify-center gap-x-4 mt-10 text-xs"> {/* Added text-sm */}
+  © 2025 Collab Crew Hub. All Rights Reserved.
+  <Link href="/" className="text-blue-500">
+    Privacy Policy
+  </Link>
+</div>
       </footer>
     </div>
   );
