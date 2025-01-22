@@ -12,7 +12,7 @@ const works = [
   {
     background: "bg-gray-200",
     imageUrl: "/images/pr2.png",
-    title: "Our Web-Development & Designing",
+    title: "Development & Design",
     link: "https://coffeesass.netlify.app/",
   },
   {
@@ -24,7 +24,7 @@ const works = [
   {
     background: "bg-gray-200",
     imageUrl: "/images/pr4.png",
-    title: "Our Car Marketplace Modern Look & Design",
+    title: "Our Car Marketplace Look & Feel",
     link: "https://carz-club.vercel.app/",
   },
 

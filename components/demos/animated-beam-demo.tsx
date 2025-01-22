@@ -50,12 +50,17 @@ export function AnimatedBeamMultipleOutputDemo({
     >
       <div className="flex size-full flex-row items-stretch justify-between gap-10 max-w-lg">
         <div className="flex flex-col justify-center gap-2">
+          <a href="https://www.instagram.com/collabcrewhub_/">
           <Circle ref={div1Ref}>
             <Icons.Instagram />
           </Circle>
+          </a>
+          <a href="https://wa.me/919589527979">
           <Circle ref={div2Ref}>
             <Icons.Whatsapp />
           </Circle>
+          </a>
+          <a href="https://www.facebook.com/p/Collab-crew-hub-61559233890129/">
           <Circle ref={div3Ref}>
           <Image
               src={"/logo/meta.svg"}
@@ -65,12 +70,17 @@ export function AnimatedBeamMultipleOutputDemo({
               alt="image"
             />
           </Circle>
+          </a>
+          <a href="https://www.linkedin.com/company/collab-crew-hub/">
           <Circle ref={div4Ref}>
             <Icons.Linkedin />
           </Circle>
+          </a>
+          <a href="https://calendly.com/collabcrewhub-info/new-meeting">
           <Circle ref={div5Ref}>
             <Icons.Calendly />
           </Circle>
+          </a>
         </div>
         <div className="flex flex-col justify-center">
           <Circle ref={div6Ref} className="size-16 bg-white">
