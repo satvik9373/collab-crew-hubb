@@ -83,7 +83,7 @@
             </a>
           </div>
           <div className="flex flex-col justify-center">
-            <Circle ref={div6Ref} className="size-16 bg-white hover:bg-purple-600">
+            <Circle ref={div6Ref} className="size-16 bg-white ">
             <Image
             src={'/logo/logo.png'}
             height={1000}
