@@ -16,6 +16,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 
 const services = [
@@ -403,30 +404,64 @@ export default function Home() {
       <LetsMakeThingsHappenSection />
       </section>
 
-      <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
-        <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
-          <h1 className="text-3xl md:text-5xl font-medium ">
-            <Image
-              src={"/logo/logo.png"}
-              width={10000}
-              height={10000}
-              className="w-28"
-              alt="image"
-            />{" "}
-          </h1>
-          <p className="text-left  text-xl  text-gray-500">+91-9589527979</p>
-          <p className="text-left  text-xl  text-gray-500">
-          info@collabcrewhub.com
-          </p>
-        </div>
+      <footer className="bg-[#fafafa] py-10 px-6 md:px-0 md:mx-auto border-t">
+  <div className="xl:w-4/5 2xl:w-[68%] mx-auto flex flex-col md:flex-row justify-between items-center gap-y-3">
+    <div className="flex flex-col items-start">
+      <h1 className="text-3xl md:text-5xl font-medium">
+        <Image
+          src={"/logo/logo.png"}
+          width={10000}
+          height={10000}
+          className="w-28"
+          alt="image"
+        />
+      </h1>
+      <p className="text-left text-xl text-gray-500">+91-9589527979</p>
+      <p className="text-left text-xl text-gray-500">info@collabcrewhub.com</p>
+    </div>
+    
+    <div className="grid grid-cols-2 gap-x-20">
+      <div>
+        <h3 className="text-black font-semibold">Solutions</h3>
+        <ul className="mt-2 space-y-1">
+          <li>Search Engine Optimization</li>
+          <li>Social Media Management</li>
+          <li>Pay-Per Click Advertising</li>
+          <li>Website Design and Development</li>
+          <li>Email Marketing</li>
+          <li>Content Marketing</li>
+        </ul>
+      </div>
+      <div>
+        <h3 className="text-black font-semibold">Company</h3>
+        <ul className="mt-2 space-y-1">
+          <li>Book a call</li>
+          <li>Showcase</li>
+          <li>Services</li>
+          <li>Process</li>
+          <li>Guarantees</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div className="flex justify-center mt-10 text-2xl space-x-4">
+    <FaFacebook />
+    <FaLinkedin />
+    <FaTwitter />
+    <FaInstagram />
+    <FaYoutube />
+  </div>
+  
+  <div className="flex md:justify-center gap-x-4 mt-6 text-xs">
+    © 2025 Collab Crew Hub. All Rights Reserved.
+    <Link href="/" className="text-blue-500">
+      Privacy Policy
+    </Link>
+  </div>
+</footer>
 
-        <div className="flex md:justify-center gap-x-4 mt-10 text-xs"> {/* Added text-sm */}
-  © 2025 Collab Crew Hub. All Rights Reserved.
-  <Link href="/" className="text-blue-500">
-    Privacy Policy
-  </Link>
-</div>
-      </footer>
+
     </div>
   );
 }
