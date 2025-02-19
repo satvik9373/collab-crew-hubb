@@ -436,6 +436,7 @@ export default function Home() {
         <h3 className="text-black font-semibold">Company</h3>
         <ul className="mt-2 space-y-1">
           <li><Link href="">Book a call</Link></li>
+          <li><Link href="">About us</Link></li>
           <li><Link href="">Showcase</Link></li>
           <li><Link href="">Services</Link></li>
           <li><Link href="">Process</Link></li>
