@@ -16,7 +16,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaCalendar, FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 
 const services = [
@@ -424,35 +424,45 @@ export default function Home() {
       <div>
         <h3 className="text-black font-semibold">Solutions</h3>
         <ul className="mt-2 space-y-1">
-          <li>Search Engine Optimization</li>
-          <li>Social Media Management</li>
-          <li>Pay-Per Click Advertising</li>
-          <li>Website Design and Development</li>
-          <li>Email Marketing</li>
-          <li>Content Marketing</li>
+          <li><Link href="">Search Engine Optimization</Link></li>
+          <li><Link href="">Social Media Management</Link></li>
+          <li><Link href="">Pay-Per Click Advertising</Link></li>
+          <li><Link href="">Website Design and Development</Link></li>
+          <li><Link href="">Email Marketing</Link></li>
+          <li><Link href="">Content Marketing</Link></li>
         </ul>
       </div>
       <div>
         <h3 className="text-black font-semibold">Company</h3>
         <ul className="mt-2 space-y-1">
-          <li>Book a call</li>
-          <li>Showcase</li>
-          <li>Services</li>
-          <li>Process</li>
-          <li>Guarantees</li>
+          <li><Link href="">Book a call</Link></li>
+          <li><Link href="">Showcase</Link></li>
+          <li><Link href="">Services</Link></li>
+          <li><Link href="">Process</Link></li>
+          <li><Link href="">Guarantees</Link></li>
         </ul>
       </div>
     </div>
   </div>
   
   <div className="flex justify-center mt-10 text-2xl space-x-4">
+  <Link href="https://www.facebook.com/p/Collab-crew-hub-61559233890129/" target="_blank" className="hover:text-blue-600 transition-all duration-300">
     <FaFacebook />
+  </Link>
+  <Link href="https://www.linkedin.com/company/collab-crew-hub/" target="_blank" className="hover:text-blue-700 transition-all duration-300">
     <FaLinkedin />
-    <FaTwitter />
+  </Link>
+  <Link href="https://wa.me/919589527979" target="_blank" className="hover:text-green-400 transition-all duration-300">
+    <FaWhatsapp />
+  </Link>
+  <Link href="https://www.instagram.com/collabcrewhub_/" target="_blank" className="hover:text-pink-500 transition-all duration-300">
     <FaInstagram />
-    <FaYoutube />
-  </div>
-  
+  </Link>
+  <Link href="https://calendly.com/collabcrewhub-info/new-meeting" target="_blank" className="hover:text-blue-600 transition-all duration-300">
+    <FaCalendar />
+  </Link>
+</div>
+
   <div className="flex md:justify-center gap-x-4 mt-6 text-xs">
     © 2025 Collab Crew Hub. All Rights Reserved.
     <Link href="/" className="text-blue-500">
